@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cosmos web</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+   
+  
+    <!-- popups -->
+    <!-- <div id="acphotopop"><input accept=".png,.jpg"  type="file" ></div> -->
+    <div id="orderpop"><h1></h1></div>
+  
+    <div id="randpop"> 
+       <div id="xbar"><button id="x"  onclick="vegclick()">X</button></div>
+       <div id="innerrandpop" >
+       <img id="panda2" src="panda2.png" alt="error">
+       <div id="randitem"></div>
+        <hr><div>
+        <h1><u>Help Disk </u></h1>
+        <div class="help"><details><summary>Popular foods near me</summary><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium officiis hic corporis repudiandae exercitationem itaque fugiat maxime voluptate quasi, nobis voluptatibus! Distinctio harum esse ratione iusto fugit, repellendus rem consequuntur.
+        Consequuntur corrupti quam ipsam alias dicta provident expedita praesentium repudiandae omnis, vitae voluptatum in, magnam temporibus corporis facilis, soluta non iste recusandae! Quia doloremque dolor quaerat quibusdam praesentium adipisci architecto?
+        </p></details></div>
+        <div class="help"><details><summary>Top Restaurants near me</summary><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium officiis hic corporis repudiandae exercitationem itaque fugiat maxime voluptate quasi, nobis voluptatibus! Distinctio harum esse ratione iusto fugit, repellendus rem consequuntur.
+        Consequuntur corrupti quam ipsam alias dicta provident expedita praesentium repudiandae omnis, vitae voluptatum in, magnam temporibus corporis facilis, soluta non iste recusandae! Quia doloremque dolor quaerat quibusdam praesentium adipisci architecto?
+        </p></details></div>
+        <div class="help"><details><summary>Details on partner with us</summary><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium officiis hic corporis repudiandae exercitationem itaque fugiat maxime voluptate quasi, nobis voluptatibus! Distinctio harum esse ratione iusto fugit, repellendus rem consequuntur.
+        Consequuntur corrupti quam ipsam alias dicta provident expedita praesentium repudiandae omnis, vitae voluptatum in, magnam temporibus corporis facilis, soluta non iste recusandae! Quia doloremque dolor quaerat quibusdam praesentium adipisci architecto?
+        </p></details></div>
+        <div class="help"><details><summary>Cities we deliver to</summary><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium officiis hic corporis repudiandae exercitationem itaque fugiat maxime voluptate quasi, nobis voluptatibus! Distinctio harum esse ratione iusto fugit, repellendus rem consequuntur.
+        Consequuntur corrupti quam ipsam alias dicta provident expedita praesentium repudiandae omnis, vitae voluptatum in, magnam temporibus corporis facilis, soluta non iste recusandae! Quia doloremque dolor quaerat quibusdam praesentium adipisci architecto?
+        </p></details></div></div></div>
+    </div>
+   
+    <div id="searchpop"></div>
+    <div id="logpop"></div>
+    <div id="locpop"> </div>
+    <div id="cartpop">
+        <b class="logo"> YOUR CART</b>
+        <div id="cartitems">
+            <span style="font-size: 50px;  ">EMPTY</span>
+        </div>
+        <button class="nonlogoitems" onclick="order()" id="order" >order</button></div>
+    <!-- main code -->
+    <div id="askpanda"><img id="panda" src="panda.png" alt="error">
+        <button class="vegbuts" onclick="vegclick()" id="veg"></button>
+        <button class="vegbuts" onclick="nonvegclick()" id="nonveg"></button>
+    </div>
+
+<div id="navbar">
+    <a href="index.html" class="logo">COSMOS</a>
+    <div class="nonlogo">
+        <input class="nonlogoitems" type="button" value="Location" onclick="locclick()" id="location">
+        <input class="nonlogoitems" type="text" placeholder="search" oninput="search()" id="searchclick" >
+        <input class="nonlogoitems" type="button" value="Login" onclick="logclick()" id="logbut" >
+        <input class="nonlogoitems" type="button" value="cart" onclick="cartclick()">
+    </div>
+</div>
+    <hr>
+<!-- middle -->
+<div id="mncats"><span></span></div>
+<footer>
+    <a href="index.html" class="logo">COSMOS</a>
+    <h1> social links</h1>
+    <a target="_blank" href="https://www.linkedin.com/in/charankantekar?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img class="links" src="lklogo.png" alt="error"></a>
+    <a target="_blank" href="https://github.com/Charankantekar"><img class="links" src="ghlogo.png" alt="error"></a>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

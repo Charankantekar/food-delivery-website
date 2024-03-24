@@ -1,0 +1,361 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family:  sans-serif;
+    border: none;
+    
+    /* font-size: large; */
+}
+#x{
+    padding: 5px;
+    margin: 2px;
+    background-color: red; 
+    font-size: x-large;
+    border: 1px solid black;
+}
+#xbar{
+    display: flex;
+    flex-direction: row-reverse;
+ 
+    
+}
+#innerrandpop{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: 100%;
+    height: 75%;
+    align-items: center;
+  justify-content: center;
+ 
+}
+.links{
+    width: 50px;
+    height: ;
+}
+#randpop{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    
+   background-color: white;
+  
+    top: 100px;
+   overflow: auto;
+    visibility: hidden;
+    z-index: 21;
+}
+#navbar {
+   position: sticky;
+   top: 1px;
+background-color: white;
+padding: 10px 0px 20px 0px;
+
+
+}
+.nonlogoitems{
+    background-color: #e92c2c;
+color: white;
+    border-radius: 10px;
+    padding: 3px;
+    max-width: 150px;
+   
+}
+#searchpop{
+    z-index: 15;
+    position: fixed;
+    display: inline;
+    
+   
+    width: 100%;
+    height: 100%;
+    top: 115px;
+
+  justify-content: center;
+    background-color: white;
+    border-radius: 5px;   
+    overflow: auto;
+    visibility: hidden;
+}
+#logpop{
+   
+    z-index: 15;
+    position: fixed;
+    
+    width: 100%;
+    height: 100%;
+    top: 115px;
+    display: grid;
+    place-items: center;
+
+    background-color: white;
+    border-radius: 5px;
+    visibility: hidden;
+    background-image: url("bg1.jfif") ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+footer{
+    background-color: rgb(241, 228, 204);
+}
+.logpro{
+    max-width: 500px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+   justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+    text-decoration: none;
+
+
+}
+input{
+    background-color: rgb(255, 255, 255);
+   border-radius: 5px;
+    padding: 5px;
+}
+.logpro1{
+    width: 600px;
+    height: 300px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+   justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+    text-decoration: none;
+padding: 44px 17px;
+background-image: url("blurbg.png") ;
+opacity: 0.75;
+border-radius: 5px;
+bottom: 50px;
+}
+
+
+#locpop{
+    display: flex;
+    flex-wrap: wrap;
+   z-index: 15;
+    position: fixed;
+    align-items: center;
+    width: 312px;
+    
+    top: 120px;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 5px;
+    visibility: hidden;
+}
+#cartpop{
+ display: flex;
+  
+   z-index: 15;
+    position: fixed;
+    align-content: center;
+   flex-direction: column;
+justify-content: center;
+align-items: center;
+    width: 100%;
+    height: 100%;
+    
+    top: 120px;
+  
+    background-color: white;
+    border-radius: 5px;
+    visibility: hidden;
+
+}
+#orderpop{
+    min-width: 600px;
+    position: fixed;
+    bottom: 45px;
+    box-shadow: 0px 0px 5px  black;
+    background-color: white;
+    visibility: hidden;
+    z-index: 20;
+    text-align: center;
+    padding: 5px;
+ 
+    border-radius: 10px;
+}
+
+#cartitems{
+    border: 2px solid black;
+    min-height: 200px;
+    
+    width: 300px;
+    height: 200px ;
+    overflow: auto; 
+   
+
+}
+
+.cartsmall{
+    display: flex;
+  
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+
+
+}
+.cartimg{
+    height: 120px;
+    margin: 5px;
+}
+.locs{
+    width: 100px;
+    height: 150px;
+    margin: 2px 2px 2px 2px;
+    
+}
+.nonlogo {
+    display: flex;
+   justify-content: space-between;
+   
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-radius: 5px;
+    max-width: 100%;
+    padding: 10px 10px 10px 10px;
+  
+}
+
+.logo {
+text-decoration: none;
+    font-family:  monospace;
+    font-size: xxx-large;
+    color: black;
+    
+}
+
+.catgories {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    box-shadow: inset 0px 0px 20px black;
+    margin: 3px 20px 20px 20px;
+    border-radius: 10px;
+    justify-content: space-around;
+}
+
+.items{
+    
+    box-shadow: 0px 0px 50px rgb(107, 107, 107);
+    padding: 10px 10px 10px 10px;
+    height: 297;
+    width: 284px;
+    margin: 7px;
+    border-radius: 10px;
+}
+.itemimg{
+
+    margin: 5px;
+    border-radius: 5px;
+    width: 275px;
+}
+
+
+#location{
+   
+    width: 100px;
+}
+.catname{
+   
+    font-size: xx-large;
+    margin: 2px 0px 2px 20px;
+}
+#askpanda{
+    
+    
+    position: fixed;
+    right: -9rem;
+    height: 145px;
+    width: 175px;
+    z-index: 20;
+    transform: rotate(-90deg);
+    top: 13rem;
+
+ filter: drop-shadow(0px 0px 5px blue);
+
+   
+}
+#askpanda:hover{
+    right: 2rem;
+   transition: all 1s ease-in-out;
+    transform: rotate(0deg);
+}
+
+#panda{
+    position: absolute;
+    height: 145px;
+    width: 175px;
+    z-index: 21;
+    
+}
+#panda:hover{
+    transform: rotate(0deg);
+    }
+.vegbuts{
+    position: absolute;
+    z-index: 21;
+    width: 50px;
+  
+    height: 45px;
+    background-color: transparent;
+  
+    top: 6rem;
+}
+#nonveg{
+    right: 0rem;
+}
+
+@media only screen and (max-width: 375px)  {
+ #askpanda{
+    width: 100px;
+    height: 80.7px;
+ }
+ #panda{
+    width: 100px;
+    height: 80.7px;
+ }
+ .vegbuts{
+    top: 3rem;
+    width: 33px;
+    height: 26px;
+ }
+}
+#panda2{
+    height:200px;
+    width: 200px;
+}
+#photo{
+    width:200px;
+    height:200px;
+    border-radius: 100%;
+   }
+#photofile{
+  text-decoration: transparent;
+  background-color: transparent;
+  color: transparent;
+ margin: 10px 0px 10px 165px;
+  
+  }
+.stars{
+    color: gold;
+    border: orange;
+    text-shadow: 0px 0px 1px gold;
+}
+
+#searchclick::placeholder{
+    color: white;
+}
+
+#photofile{
+    padding: 35px;
+}
+
+
